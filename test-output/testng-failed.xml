@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="aes.tests.TestBase">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- aes.tests.TestBase -->
       <class name="aes.tests.PersonModuleTests">
         <methods>
+          <include name="tearDown"/>
           <include name="validLogin"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- aes.tests.PersonModuleTests -->
     </classes>

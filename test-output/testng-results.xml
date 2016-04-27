@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14936" started-at="2016-04-27T11:30:45Z" finished-at="2016-04-27T11:31:00Z">
+  <suite name="Default suite" duration-ms="15044" started-at="2016-04-27T12:38:13Z" finished-at="2016-04-27T12:38:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14936" started-at="2016-04-27T11:30:45Z" finished-at="2016-04-27T11:31:00Z">
+    <test name="Default test" duration-ms="15044" started-at="2016-04-27T12:38:13Z" finished-at="2016-04-27T12:38:28Z">
       <class name="aes.tests.PersonModuleTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="setUp" is-config="true" duration-ms="7453" started-at="2016-04-27T15:30:45Z" finished-at="2016-04-27T15:30:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:aes.tests.PersonModuleTests@66338dff]" name="setUp" is-config="true" duration-ms="7715" started-at="2016-04-27T16:38:13Z" finished-at="2016-04-27T16:38:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="validLogin" duration-ms="6698" started-at="2016-04-27T15:30:53Z" finished-at="2016-04-27T15:30:59Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.PersonModuleTests@66338dff]" name="validLogin" duration-ms="6544" started-at="2016-04-27T16:38:21Z" finished-at="2016-04-27T16:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="tearDown" is-config="true" duration-ms="760" started-at="2016-04-27T15:30:59Z" finished-at="2016-04-27T15:31:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aes.tests.PersonModuleTests@66338dff]" name="tearDown" is-config="true" duration-ms="762" started-at="2016-04-27T16:38:27Z" finished-at="2016-04-27T16:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

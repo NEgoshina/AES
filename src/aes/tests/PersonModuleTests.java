@@ -6,23 +6,23 @@ public class PersonModuleTests extends TestBase{
 
 @Test (enabled = true)
 public void validLogin() throws Exception {
-		app.openLoginPage();
+		app.getNavigationHelper().openLoginPage();
 	    //manager.navigationHelper.openLoginPage();
 	    LoginFormData loginForm = new LoginFormData();
 	    loginForm.login = "zt";
 	    loginForm.password = "aes";
-		app.fillLoginForm(this, loginForm);
-	    app.submitLogin();
-	    app.LogOut();
+		app.getNavigationHelper().fillLoginForm(loginForm);
+	    app.getNavigationHelper().submitLogin();
+	    app.getNavigationHelper().LogOut();
 	}
 
 @Test (enabled = false)
 public void invalidLogin() throws Exception {
-    app.openLoginPage();
+    app.getNavigationHelper().openLoginPage();
     LoginFormData loginForm = new LoginFormData();
     loginForm.login = "";
     loginForm.password = "";
-	app.fillLoginForm(this, loginForm);
-    app.submitLogin();
+	app.getNavigationHelper().fillLoginForm(loginForm);
+    app.getNavigationHelper().submitLogin();
 }
 }	

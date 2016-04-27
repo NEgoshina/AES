@@ -1,7 +1,5 @@
 package aes.tests;
 
-import org.openqa.selenium.By;
-
 import aes.fw.ApplicationManager;
 
 public class LoginFormData extends TestBase{

@@ -7,14 +7,14 @@ public class CompanyModuleTests extends TestBase{
 	
 	@Test
 	public void validLogin() throws Exception {
-			app.openLoginPage();
+			app.getNavigationHelper().openLoginPage();
 		    //manager.navigationHelper.openLoginPage();
 		    LoginFormData loginForm = new LoginFormData();
 		    loginForm.login = "adm.adm";
 		    loginForm.password = "3admin124";
-			loginForm.app.fillLoginForm(loginForm, loginForm);
-		    app.submitLogin();
-		    app.LogOut();
+			loginForm.app.getNavigationHelper().fillLoginForm(loginForm);
+		    app.getNavigationHelper().submitLogin();
+		    app.getNavigationHelper().LogOut();
 		}
 
 
