@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17987" started-at="2016-04-27T08:47:30Z" finished-at="2016-04-27T08:47:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17987" started-at="2016-04-27T08:47:30Z" finished-at="2016-04-27T08:47:48Z">
+      <class name="aes.tests.TestBase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:aes.tests.TestBase@7dadd4d8]" name="setUp" is-config="true" duration-ms="7235" started-at="2016-04-27T12:47:30Z" finished-at="2016-04-27T12:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aes.tests.TestBase@7dadd4d8]" name="tearDown" is-config="true" duration-ms="815" started-at="2016-04-27T12:47:47Z" finished-at="2016-04-27T12:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aes.tests.TestBase -->
+      <class name="aes.tests.PersonModuleTests">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.PersonModuleTests@2ff66272]" name="validLogin" duration-ms="3515" started-at="2016-04-27T12:47:43Z" finished-at="2016-04-27T12:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- aes.tests.PersonModuleTests -->
+      <class name="aes.tests.CompanyModuleTests">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.CompanyModuleTests@1f70f15e]" name="validLogin" duration-ms="6398" started-at="2016-04-27T12:47:37Z" finished-at="2016-04-27T12:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- aes.tests.CompanyModuleTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
