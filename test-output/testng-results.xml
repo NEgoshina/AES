@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17987" started-at="2016-04-27T08:47:30Z" finished-at="2016-04-27T08:47:48Z">
+  <suite name="Default suite" duration-ms="14936" started-at="2016-04-27T11:30:45Z" finished-at="2016-04-27T11:31:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17987" started-at="2016-04-27T08:47:30Z" finished-at="2016-04-27T08:47:48Z">
-      <class name="aes.tests.TestBase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:aes.tests.TestBase@7dadd4d8]" name="setUp" is-config="true" duration-ms="7235" started-at="2016-04-27T12:47:30Z" finished-at="2016-04-27T12:47:37Z">
+    <test name="Default test" duration-ms="14936" started-at="2016-04-27T11:30:45Z" finished-at="2016-04-27T11:31:00Z">
+      <class name="aes.tests.PersonModuleTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="setUp" is-config="true" duration-ms="7453" started-at="2016-04-27T15:30:45Z" finished-at="2016-04-27T15:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:aes.tests.TestBase@7dadd4d8]" name="tearDown" is-config="true" duration-ms="815" started-at="2016-04-27T12:47:47Z" finished-at="2016-04-27T12:47:48Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="validLogin" duration-ms="6698" started-at="2016-04-27T15:30:53Z" finished-at="2016-04-27T15:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aes.tests.PersonModuleTests@39b5b441]" name="tearDown" is-config="true" duration-ms="760" started-at="2016-04-27T15:30:59Z" finished-at="2016-04-27T15:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- aes.tests.TestBase -->
-      <class name="aes.tests.PersonModuleTests">
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.PersonModuleTests@2ff66272]" name="validLogin" duration-ms="3515" started-at="2016-04-27T12:47:43Z" finished-at="2016-04-27T12:47:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
       </class> <!-- aes.tests.PersonModuleTests -->
-      <class name="aes.tests.CompanyModuleTests">
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:aes.tests.CompanyModuleTests@1f70f15e]" name="validLogin" duration-ms="6398" started-at="2016-04-27T12:47:37Z" finished-at="2016-04-27T12:47:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- aes.tests.CompanyModuleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

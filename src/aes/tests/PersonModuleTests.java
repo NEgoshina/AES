@@ -4,25 +4,25 @@ import org.testng.annotations.*;
 
 public class PersonModuleTests extends TestBase{
 
-@Test
+@Test (enabled = true)
 public void validLogin() throws Exception {
-		openLoginPage();
+		app.openLoginPage();
 	    //manager.navigationHelper.openLoginPage();
 	    LoginFormData loginForm = new LoginFormData();
 	    loginForm.login = "zt";
 	    loginForm.password = "aes";
-		fillLoginForm(loginForm);
-	    submitLogin();
-	    LogOut();
+		app.fillLoginForm(this, loginForm);
+	    app.submitLogin();
+	    app.LogOut();
 	}
 
 @Test (enabled = false)
 public void invalidLogin() throws Exception {
-    openLoginPage();
+    app.openLoginPage();
     LoginFormData loginForm = new LoginFormData();
     loginForm.login = "";
     loginForm.password = "";
-	fillLoginForm(loginForm);
-    submitLogin();
+	app.fillLoginForm(this, loginForm);
+    app.submitLogin();
 }
 }	
